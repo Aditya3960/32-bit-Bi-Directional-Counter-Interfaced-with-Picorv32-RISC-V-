@@ -72,7 +72,7 @@ Run this command to compile the c file and make Hex file:
 
 ```bash
 riscv32-unknown-elf-gcc -Os -ffreestanding -nostdlib \
-  -Wl,-Bstatic,-Tlinker1.ld,--strip-debug \
+  -Wl,-Bstatic,-Tlinker.ld,--strip-debug \
   -o firmware.elf bi_counter.c
  riscv32-unknown-elf-objcopy -O verilog --verilog-data-width=4 firmware.elf firmware.hex
 
