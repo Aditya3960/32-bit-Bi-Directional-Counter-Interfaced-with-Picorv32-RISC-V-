@@ -58,7 +58,8 @@ The project consists of three primary components:
 ### 🧰 Requirements
 
 Make sure the following tools are installed:
-
+-WSL-Ubutno
+-Picorv32(https://github.com/cliffordwolf/picorv32)
 - [Icarus Verilog (iverilog)](http://iverilog.icarus.com/)
 - [GTKWave](http://gtkwave.sourceforge.net/) (for waveform viewing)
 - [RISC-V GCC Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) (only needed if you want to rebuild `firmware.hex`)
